@@ -26,7 +26,13 @@ body{
     font-size: 24px;
     text-align: center;
   }
+  p{
+    font-size: 20px;
+  }
   p.contact{
+    text-align: center;
+  }
+  p.social{
     text-align: center;
   }
   p#spanish{
@@ -50,14 +56,10 @@ body{
   }
   @media all and (min-width: 768px){
   figure img{
-    width: 60%;
+    width: 100%;
     Height: auto;
     margin-bottom: 15px;
   }
-}
-figure img.angy{
-    width: 100%;
-    height: auto;
 }
     a{
     font-weight: bold, 20px;
@@ -77,6 +79,9 @@ figure img.angy{
    nav ul li {
     padding: 5px;
     text-align: center;
+  }
+  nav ul li#tiktok{
+    background-color: #EEF5FF;
   }
   nav ul li a{
     text-decoration: none;
