@@ -1,20 +1,23 @@
 body{
     font-family: Verdana;
     font-weight: 96px;
+    background-color: #d1eaff;
   }
   h1#site-title {
-    color: #9C1965;
+    color: #005eab;
     font-size: 72px;
     margin-top: 0;
     text-align: center;
   }
   h1#article-title {
     font-size: 48px;
-    color: #9C1965;
+    color: #005eab;
     text-align: center;
   }
   h2{
-    color:#9C1965;
+    color: #005eab;
+    font-size: 36px;
+    text-align: center;
   }
   figure{
     border: 3px solid #9C1965;
@@ -26,10 +29,18 @@ body{
     Height: auto;
     margin-bottom: 15px;
   }
-  nav ul {
+    a {
+    font-weight: bold, 20px;
+    color:#005eab;
+    text-align: center;
+  }
+    nav ul {
     list-style: none;
     padding-left: 0;
     background-color: #E3BBD5;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
    }
    nav ul li {
     padding: 5px;
@@ -50,5 +61,5 @@ body{
      margin-top: 64px;
      text-align: center;
      background-color: #E3BBD5;
-     color: #9C1965;
+     color: #005eab;
 }
