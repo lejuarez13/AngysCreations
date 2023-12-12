@@ -2,7 +2,6 @@ body{
     font-family: cambria;
     font-weight: 96px;
     background-color: #EEF5FF;
-    color:#005eab
     font-size: 18px;
   }
   h1#site-title {
@@ -20,6 +19,13 @@ body{
     color: #8D2A5F;
     font-size: 36px;
     text-align: center;
+    padding-top: 30px;
+  }
+  h2#party-decor{
+    color: #8D2A5F;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
   }
   h3{
     color:#005eab;
@@ -38,6 +44,9 @@ body{
   p#spanish{
     font-style: italic;
     text-align: center;
+  }
+  p.footer{
+    font-size: 12px;
   }
   @media all and (min-width:768px){
   main{
@@ -74,14 +83,16 @@ body{
     display: flex;
     justify-content: center;
     gap: 30px;
+    font-size: 22px;
    }
 }
+nav ul#tiktok{
+    background-color: #EEF5FF;
+    font-size: 20px;
+  }
    nav ul li {
     padding: 5px;
     text-align: center;
-  }
-  nav ul li#tiktok{
-    background-color: #EEF5FF;
   }
   nav ul li a{
     text-decoration: none;
@@ -99,4 +110,5 @@ body{
      text-align: center;
      background-color: #ECCFDF;
      color: #8D2A5F;
+     font-size: 18px;
 }
