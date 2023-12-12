@@ -21,7 +21,7 @@ body{
     text-align: center;
   }
   h3{
-    color:#8D2A5F;
+    color:#005eab;
     font-size: 24px;
     text-align: center;
   }
@@ -30,28 +30,36 @@ body{
   }
   p#spanish{
     font-style: italic;
+    text-align: center;
   }
+  @media all and (min-width:768px){
   main{
     margin-left: 200px;
     margin-right: 200px;
    }
+}
   figure{
     border: 3px solid #8D2A5F;
     padding: 15px;
     padding-bottom: 30x;
     background-color: #ECCFDF;
     color:#8D2A5F;
+    text-align: center;
+    font-size: 18px;
   }
+  @media all and (min-width: 768px){
   figure img{
     width: 100%;
     Height: auto;
     margin-bottom: 15px;
   }
+}
     a{
     font-weight: bold, 20px;
     color:#005eab;
     text-align: center;
   }
+  @media all and (min-width:376px){
     nav ul {
     list-style: none;
     padding-left: 0;
@@ -60,6 +68,7 @@ body{
     justify-content: center;
     gap: 30px;
    }
+}
    nav ul li {
     padding: 5px;
     text-align: center;
