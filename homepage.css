@@ -3,6 +3,7 @@ body{
     font-weight: 96px;
     background-color: #EEF5FF;
     color:#005eab
+    font-size: 18px;
   }
   h1#site-title {
     color: #005eab;
@@ -49,10 +50,14 @@ body{
   }
   @media all and (min-width: 768px){
   figure img{
-    width: 100%;
+    width: 60%;
     Height: auto;
     margin-bottom: 15px;
   }
+}
+figure img.angy{
+    width: 100%;
+    height: auto;
 }
     a{
     font-weight: bold, 20px;
@@ -78,7 +83,7 @@ body{
   }
   nav ul li a:hover {
     padding-bottom: 9px;
-    border-bottom: 3px solid #8D2A5F;
+    border-bottom: 3px solid #005eab;
   }
   header nav ul{
     border: 2px solid #8D2A5F;
